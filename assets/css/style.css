@@ -3,6 +3,7 @@
 body.main {
   font-family:
     Spectral,
+    Courgette,
     Lora,
     AvenirNext,
     Avenir,
@@ -118,6 +119,103 @@ h1.main-title {
   padding: 0 20px;
 }
 
+.main-article-author {
+  display: flex;
+}
+
+.main-author-image {
+  background: #000;
+  width: 75px;
+  height: 75px;
+  position: relative;
+  margin-right: 20px;
+  transform: rotate(75deg);
+  border-radius: 8px;
+  box-shadow: 0 -6px 11px 1px rgba(0, 0, 0, 0.45);
+}
+
+.main-author-image::before {
+  display: flex;
+  background: transparent;
+  width: 66px;
+  height: 0;
+  position: relative;
+  box-shadow: 0 -5px 3px 2px rgba(0, 0, 0, 0.45);
+  content: " ";
+  transform: rotate(104deg);
+  margin-top: 36px;
+  margin-left: 48px;
+}
+
+.main-author-image:hover {
+  transform: rotate(90deg);
+}
+
+.main-author-image:hover::before {
+  box-shadow: none;
+}
+
+p.main-author-name {
+  font-size: 20.8px;
+  font-weight: 900;
+}
+
+a.author-name {
+  color: #fff;
+  text-decoration: none;
+}
+
+span.wrote {
+  font-family: Courgette, Spectral, Lora, AvenirNext, Avenir, -apple-system, BlinkMacSystemFont, Roboto Slab, Droid Serif, Segoe UI, Oxygen-Sans, Ubuntu, Cantarell, Georgia, serif;
+  font-style: italic;
+  font-weight: 100;
+  font-size: 16px;
+}
+
+h2.main-article-title {
+  text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.25);
+  background-position: 0 0;
+  position: static;
+  font-size: 45px;
+  font-weight: 900;
+  margin-left: 8px;
+}
+
+span.main-article-comment::before {
+  content: "🗨️";
+}
+
+span.main-article-comment {
+  font-size: 20px;
+}
+
+li.main-article-tag::before {
+  content: "# ";
+  color: #000;
+  font-weight: 900;
+  font-size: 18px;
+  font-family: AvenirNext, Avenir, -apple-system, BlinkMacSystemFont, Roboto Slab, Droid Serif, Segoe UI, Oxygen-Sans, Ubuntu, Cantarell, Georgia, serif;
+}
+
+ul.main-articles-tags {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  list-style: none;
+  font-size: 18px;
+  font-weight: 900;
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+li.main-article-tag::after {
+  content: " 254";
+  font-size: 12px;
+  font-weight: 700;
+  position: relative;
+  top: -7px;
+}
+
 .main-articles {
   display: grid;
   grid-template-columns: auto auto;
@@ -130,7 +228,7 @@ article.main-articles-1,
 article.main-articles-2,
 article.main-articles-3,
 article.main-articles-4 {
-  padding: 0 80px;
+  padding: 40px 80px 0 80px;
 }
 
 article.main-articles-1 {
