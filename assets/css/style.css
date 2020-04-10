@@ -219,7 +219,7 @@ li.main-article-tag::after {
 .main-articles {
   display: grid;
   grid-template-columns: auto auto;
-  height: 70vw;
+  height: 80vw;
   padding: 0;
   color: #fff;
 }
@@ -228,7 +228,20 @@ article.main-articles-1,
 article.main-articles-2,
 article.main-articles-3,
 article.main-articles-4 {
-  padding: 40px 80px 0 80px;
+  padding: 40px 80px 35px 80px;
+}
+
+article.main-articles-1::after,
+article.main-articles-2::after,
+article.main-articles-3::after,
+article.main-articles-4::after {
+  content: "→";
+  color: #fff;
+  font-size: 70px;
+  font-weight: 100;
+  top: 30px;
+  position: relative;
+  cursor: pointer;
 }
 
 article.main-articles-1 {
@@ -245,6 +258,31 @@ article.main-articles-3 {
 
 article.main-articles-4 {
   background-color: #5d5d5d;
+}
+
+.second-articles {
+  position: relative;
+  top: -16px;
+}
+
+ul.second-article-content-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  list-style: none;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+li.second-article-main-content {
+  padding: 50px;
+  background: #fff;
+}
+
+li.second-article-main-content:hover {
+  transform: scale(1.07);
+  box-shadow: 0 0 4px 7px rgb(48, 48, 48, 0.3);
+  z-index: 5;
 }
 
 /** Main Section Style End **/
