@@ -308,7 +308,7 @@ li.second-article-main-content-4 {
   cursor: pointer;
 }
 
-li.second-article-main-content-1 {
+li.second-article-main-content {
   background-color: #2d2d2d;
   border-left: 40px solid #fff;
 }
@@ -318,7 +318,8 @@ li.second-article-main-content-2 {
 }
 
 li.second-article-main-content-3,
-li.third-article-main-content-2 {
+li.third-article-main-content-2,
+li.fourth-article-main-content-1 {
   background-color: #6d6d6d;
 }
 
@@ -331,11 +332,17 @@ li.third-article-main-content-1 {
   margin-left: -20px;
 }
 
+li.fourth-article-main-content-2 {
+  background-color: #4d4d4d;
+}
+
 li.second-article-main-content-1::after,
 li.second-article-main-content-2::after,
 li.second-article-main-content-3::after,
 li.third-article-main-content-1::after,
-li.third-article-main-content-2::after {
+li.third-article-main-content-2::after,
+li.fourth-article-main-content-1::after,
+li.fourth-article-main-content-2::after {
   content: "→ ";
   color: #fff;
   font-size: 50px;
@@ -354,7 +361,9 @@ li.second-article-main-content-1:hover::after,
 li.second-article-main-content-2:hover::after,
 li.second-article-main-content-3:hover::after,
 li.third-article-main-content-1:hover::after,
-li.third-artcle-main-content-2:hover::after {
+li.third-article-main-content-2:hover::after,
+li.fourth-article-main-content-1:hover::after,
+li.fourth-article-main-content-2:hover::after {
   background-color: #000;
 }
 
@@ -362,7 +371,9 @@ li.second-article-main-content-1:hover,
 li.second-article-main-content-2:hover,
 li.second-article-main-content-3:hover,
 li.third-article-main-content-1:hover,
-li.third-article-main-content-2:hover {
+li.third-article-main-content-2:hover,
+li.fourth-article-main-content-1:hover,
+li.fourth-article-main-content-2:hover {
   transform: scale(1.07);
   box-shadow: 0 0 4px 7px rgb(48, 48, 48, 0.3);
   z-index: 5;
@@ -370,29 +381,35 @@ li.third-article-main-content-2:hover {
   border: 0;
 }
 
-h5.second-article-author {
+h5.second-article-author,
+h5.third-article-author,
+h5.fourth-article-author {
   font-size: 15px;
 }
 
 h6.second-article-date,
-h6.third-article-date {
+h6.third-article-date,
+h6.fourth-article-date {
   margin: 30px 0 -32px 0;
 }
 
 .second-article-date,
-.third-article-date {
+.third-article-date,
+.fourth-article-date {
   font-weight: 100;
 }
 
 .second-article-title,
-.third-article-title {
+.third-article-title,
+.fourth-article-title {
   text-transform: capitalize;
   text-decoration: underline;
   font-size: 25px;
 }
 
 .second-article-author a,
-.third-article-author a {
+.third-article-author a,
+.fourth-article-author a {
   text-decoration: underline;
   text-transform: capitalize;
   padding: 5px;
@@ -408,7 +425,8 @@ ul.third-article-content-container {
   padding: 0;
 }
 
-li.third-article-main-content-block {
+li.third-article-main-content-block,
+li.fourth-article-main-content-block {
   background-color: #000;
   color: #fff;
   border-radius: 15px;
@@ -426,13 +444,15 @@ a.content-logo {
   display: inline-block;
 }
 
-h3.third-article-content-1 {
+h3.third-article-content-1,
+h3.fourth-article-content-1 {
   font-size: 35px;
   text-decoration: underline #5d5d5d;
   cursor: pointer;
 }
 
-p.third-article-content-1 {
+p.third-article-content-1,
+p.fourth-article-content-1 {
   font-size: 18.5px;
   margin: 0 40px 25px 40px;
   padding-bottom: 16px;
@@ -443,7 +463,8 @@ span.join-family {
   cursor: pointer;
 }
 
-a.third-article-content-1 {
+a.third-article-content-1,
+a.fourth-article-content-1 {
   color: #fff;
   font-size: 20px;
   background: #5d5d5d;
@@ -462,10 +483,21 @@ a.sign-in {
 }
 
 li.third-article-main-content-1,
-li.third-article-main-content-2 {
+li.third-article-main-content-2,
+li.fourth-article-main-content-1,
+li.fourth-article-main-content-2 {
 padding: 3px 50px 30px 50px;
 color: #fff;
 cursor: pointer;
+}
+
+ul.fourth-article-content-container {
+  display: grid;
+  grid-template-columns: auto auto 50%;
+  list-style: none;
+  position: relative;
+  margin: 0 0 0 40px;
+  padding: 0;
 }
 /** Main Section Style End **/
 
