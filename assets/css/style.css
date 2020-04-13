@@ -357,6 +357,18 @@ li.fourth-article-main-content-2::after {
   cursor: pointer;
 }
 
+.see-all-articles::after {
+  content: "→ ";
+  color: #333;
+  font-size: 30px;
+  font-weight: 100;
+  display: block;
+  top: -35px;
+  left: 124px;
+  position: relative;
+  cursor: pointer;
+}
+
 li.second-article-main-content-1:hover::after,
 li.second-article-main-content-2:hover::after,
 li.second-article-main-content-3:hover::after,
@@ -498,6 +510,53 @@ ul.fourth-article-content-container {
   position: relative;
   margin: 0 0 0 40px;
   padding: 0;
+}
+
+.see-all-articles {
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 79px;
+    margin-bottom: 79px;
+}
+
+.shipping-article {
+  text-align: center;
+  background-color: #333;
+  color: white;
+  padding: 56px;
+  height: 1000px;
+  background-size: 100% 4px;
+  font-size: 1.3em;
+}
+
+.shipping-img {
+    background-color: #fff;
+    width: 400px;
+    height: 400px;
+    top: 1em;
+    position: relative;
+    display: inline-block;
+}
+
+h6.shipping-date {
+  font-size: 0.8em;
+  text-transform: uppercase;
+  margin-top: 11px;
+}
+
+a.shipping-title-url {
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 1.2em;
+  font-family: lora;
+}
+
+h1.shipping-title-2 {
+  text-transform: capitalize;
+  position: relative;
+  top: -40px;
+  font-size: 52px;
+  font-family: spectral;
 }
 /** Main Section Style End **/
 
