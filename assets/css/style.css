@@ -274,15 +274,37 @@ ul.second-article-content-container {
   padding: 0;
 }
 
-li.second-article-main-content {
+li.second-article-main-content-1, 
+li.second-article-main-content-2,
+li.second-article-main-content-3,
+li.second-article-main-content-4 {
   padding: 50px;
-  background: #fff;
+  color: #fff;
 }
 
-li.second-article-main-content:hover {
+li.second-article-main-content-1:hover,
+li.second-article-main-content-2:hover,
+li.second-article-main-content-3:hover,
+li.second-article-main-content-4:hover {
   transform: scale(1.07);
   box-shadow: 0 0 4px 7px rgb(48, 48, 48, 0.3);
   z-index: 5;
+}
+
+li.second-article-main-content-1 {
+  background-color: #2d2d2d;
+}
+
+li.second-article-main-content-2 {
+  background-color: #4d4d4d;
+}
+
+li.second-article-main-content-3 {
+  background-color: #6d6d6d;
+}
+
+li.second-article-main-content-4 {
+  background-color: #8d8d8d;
 }
 
 /** Main Section Style End **/
