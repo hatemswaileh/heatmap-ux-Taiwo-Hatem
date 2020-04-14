@@ -756,9 +756,9 @@ p.featured-smashing-book-content {
   background: #5d5d5d;
   width: 268px;
   height: 383px;
-  position: relative;
-  top: -453px;
-  left: 1097px;
+  position: absolute;
+  top: -61px;
+  left: 1114px;
   display: inline-block;
   transform: rotate(166deg);
   border-radius: 8px;
