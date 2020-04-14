@@ -754,15 +754,24 @@ p.featured-smashing-book-content {
 
 .featured-smashing-book-img {
   background: #5d5d5d;
-  width: 268px;
-  height: 383px;
+  width: 243px;
+  height: 351px;
   position: absolute;
-  top: -61px;
-  left: 1114px;
+  top: -46px;
+  right: 88px;
   display: inline-block;
   transform: rotate(166deg);
   border-radius: 8px;
   box-shadow: 0 -6px 11px 1px rgba(0, 0, 0, 0.45);
+}
+
+.featured-smashing-book-img:hover {
+  transform: rotate(180deg);
+}
+
+.curated-posts-main {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
 }
 
 /** Main Section Style End **/
