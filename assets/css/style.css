@@ -334,7 +334,7 @@ li.second-article-main-content-4 {
 }
 
 .third-articles {
-    margin-bottom: 55px;
+  margin-bottom: 55px;
 }
 
 li.third-article-main-content-1 {
@@ -509,15 +509,15 @@ a.fourth-article-content-1 {
 }
 
 a.shipping-content {
-    color: #fff;
-    font-size: 25px;
-    background: #5d5d5d;
-    position: relative;
-    display: inline-block;
-    padding: 15px 20px;
-    border-radius: 10px;
-    text-decoration: none;
-    text-align: center;
+  color: #fff;
+  font-size: 25px;
+  background: #5d5d5d;
+  position: relative;
+  display: inline-block;
+  padding: 15px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  text-align: center;
 }
 
 a.sign-in {
@@ -584,8 +584,8 @@ ul.fourth-article-content-container {
 }
 
 p.shipping-content {
-    margin: -41px 97px 0 360px;
-    width: 50%;
+  margin: -41px 97px 0 360px;
+  width: 50%;
 }
 
 h6.shipping-date {
@@ -877,6 +877,7 @@ h4.vertical-address.curated {
   top: 40px;
   letter-spacing: 3px;
 }
+
 /** Main Section Style End **/
 
 /** Footer Section Style Start **/
