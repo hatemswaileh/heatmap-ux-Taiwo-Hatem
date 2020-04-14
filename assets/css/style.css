@@ -166,7 +166,22 @@ a.author-name {
 }
 
 span.wrote {
-  font-family: Courgette, Spectral, Lora, AvenirNext, Avenir, -apple-system, BlinkMacSystemFont, Roboto Slab, Droid Serif, Segoe UI, Oxygen-Sans, Ubuntu, Cantarell, Georgia, serif;
+  font-family:
+    Courgette,
+    Spectral,
+    Lora,
+    AvenirNext,
+    Avenir,
+    -apple-system,
+    BlinkMacSystemFont,
+    Roboto Slab,
+    Droid Serif,
+    Segoe UI,
+    Oxygen-Sans,
+    Ubuntu,
+    Cantarell,
+    Georgia,
+    serif;
   font-style: italic;
   font-weight: 100;
   font-size: 16px;
@@ -194,7 +209,22 @@ li.main-article-tag::before {
   color: #000;
   font-weight: 900;
   font-size: 18px;
-  font-family: AvenirNext, Avenir, -apple-system, BlinkMacSystemFont, Roboto Slab, Droid Serif, Segoe UI, Oxygen-Sans, Ubuntu, Cantarell, Georgia, serif;
+  font-family:
+    AvenirNext,
+    Avenir,
+    Courgette,
+    Spectral,
+    Lora,
+    -apple-system,
+    BlinkMacSystemFont,
+    Roboto Slab,
+    Droid Serif,
+    Segoe UI,
+    Oxygen-Sans,
+    Ubuntu,
+    Cantarell,
+    Georgia,
+    serif;
 }
 
 ul.main-articles-tags {
@@ -530,9 +560,9 @@ li.third-article-main-content-1,
 li.third-article-main-content-2,
 li.fourth-article-main-content-1,
 li.fourth-article-main-content-2 {
-padding: 3px 50px 30px 50px;
-color: #fff;
-cursor: pointer;
+  padding: 3px 50px 30px 50px;
+  color: #fff;
+  cursor: pointer;
 }
 
 ul.fourth-article-content-container {
@@ -598,7 +628,22 @@ a.shipping-title-url {
   color: #fff;
   text-transform: capitalize;
   font-size: 1.2em;
-  font-family: lora;
+  font-family:
+    Lora,
+    AvenirNext,
+    Avenir,
+    Courgette,
+    Spectral,
+    -apple-system,
+    BlinkMacSystemFont,
+    Roboto Slab,
+    Droid Serif,
+    Segoe UI,
+    Oxygen-Sans,
+    Ubuntu,
+    Cantarell,
+    Georgia,
+    serif;
 }
 
 h1.shipping-title-2 {
@@ -606,7 +651,22 @@ h1.shipping-title-2 {
   position: relative;
   top: -40px;
   font-size: 52px;
-  font-family: spectral;
+  font-family:
+    Spectral,
+    Lora,
+    AvenirNext,
+    Avenir,
+    Courgette,
+    -apple-system,
+    BlinkMacSystemFont,
+    Roboto Slab,
+    Droid Serif,
+    Segoe UI,
+    Oxygen-Sans,
+    Ubuntu,
+    Cantarell,
+    Georgia,
+    serif;
 }
 
 .community-main-article {
@@ -665,7 +725,6 @@ p.community-main-article-content {
   margin-left: 100px;
   margin-right: 25px;
 }
-
 
 ul.community-main-article-list {
   display: grid;
@@ -740,7 +799,22 @@ h1.featured-smashing-book-title-1 {
   top: -37px;
   text-transform: capitalize;
   font-size: 38px;
-  font-family: lora;
+  font-family:
+    Lora,
+    AvenirNext,
+    Avenir,
+    Spectral,
+    Courgette,
+    -apple-system,
+    BlinkMacSystemFont,
+    Roboto Slab,
+    Droid Serif,
+    Segoe UI,
+    Oxygen-Sans,
+    Ubuntu,
+    Cantarell,
+    Georgia,
+    serif;
   text-decoration: underline #5d5d5d;
 }
 
@@ -789,13 +863,44 @@ li.curated-posts-main {
   font-size: 1.4em;
   text-transform: uppercase;
   font-weight: 100;
-  font-family: sans-serif;
+  font-family:
+    sans-serif,
+    Lora,
+    AvenirNext,
+    Avenir,
+    Spectral,
+    Courgette,
+    -apple-system,
+    BlinkMacSystemFont,
+    Roboto Slab,
+    Droid Serif,
+    Segoe UI,
+    Oxygen-Sans,
+    Ubuntu,
+    Cantarell,
+    Georgia,
+    serif;
   list-style: none;
 }
 
 h2.curated-title {
   font-size: 1.3em;
-  font-family: lora;
+  font-family:
+    Lora,
+    AvenirNext,
+    Avenir,
+    Spectral,
+    Courgette,
+    -apple-system,
+    BlinkMacSystemFont,
+    Roboto Slab,
+    Droid Serif,
+    Segoe UI,
+    Oxygen-Sans,
+    Ubuntu,
+    Cantarell,
+    Georgia,
+    serif;
   text-transform: capitalize;
   margin-right: 134px;
   position: relative;
@@ -872,7 +977,6 @@ p.smashing-newsletter-content-3 {
   margin-bottom: -16px;
 }
 
-
 h4.vertical-address.curated {
   top: 40px;
   letter-spacing: 3px;
@@ -892,7 +996,22 @@ h4.browse-all-title {
   text-transform: uppercase;
   padding: 46px 0 17px 0;
   font-size: 19px;
-  font-family: serif;
+  font-family:
+    serif;
+    Lora,
+    AvenirNext,
+    Avenir,
+    Spectral,
+    Courgette,
+    -apple-system,
+    BlinkMacSystemFont,
+    Roboto Slab,
+    Droid Serif,
+    Segoe UI,
+    Oxygen-Sans,
+    Ubuntu,
+    Cantarell,
+    Georgia,
 }
 
 a.browse-all-list-content {
