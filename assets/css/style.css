@@ -430,6 +430,10 @@ li.fourth-article-main-content-2 {
   cursor: pointer;
 }
 
+ul.curated-posts-main-articles {
+  margin-left: 25px;
+}
+
 li.second-article-main-content-1:hover,
 li.second-article-main-content-2:hover,
 li.second-article-main-content-3:hover,
@@ -909,10 +913,6 @@ h2.curated-title {
 
 li.curated-posts-main-1 {
   list-style: none;
-}
-
-ul.curated-posts-main-articles {
-  margin-left: 25px;
 }
 
 ul.curated-posts-main-list {
