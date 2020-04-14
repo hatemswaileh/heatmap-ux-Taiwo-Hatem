@@ -612,40 +612,39 @@ a.community-main-article-img {
   height: 200px;
   position: relative;
   display: inline-block;
-  /* margin-right: 20px; */
   transform: rotate(75deg);
   border-radius: 8px;
   box-shadow: 0 -6px 11px 1px rgba(0, 0, 0, 0.45);
 }
 
 a.community-main-article-img::before {
-    display: flex;
-    background: transparent;
-    width: 190px;
-    height: 0;
-    position: relative;
-    box-shadow: 0 -5px 3px 2px rgba(0, 0, 0, 0.45);
-    content: " ";
-    transform: rotate(104deg);
-    margin-top: 105px;
-    margin-left: 124px;
+  display: flex;
+  background: transparent;
+  width: 190px;
+  height: 0;
+  position: relative;
+  box-shadow: 0 -5px 3px 2px rgba(0, 0, 0, 0.45);
+  content: " ";
+  transform: rotate(104deg);
+  margin-top: 105px;
+  margin-left: 124px;
 }
 
 a.community-main-article-img:hover {
-    transform: rotate(90deg);
+  transform: rotate(90deg);
 }
 
 a.community-main-article-img:hover::before {
-    box-shadow: none;
+  box-shadow: none;
 }
 
 h6.community-main-article-title {
-    display: inline-block;
-    position: absolute;
-    top: -68px;
-    font-size: 20px;
-    font-weight: 500;
-    margin-left: 99px;
+  display: inline-block;
+  position: absolute;
+  top: -68px;
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 99px;
 }
 
 p.community-main-article-content {
@@ -658,15 +657,58 @@ p.community-main-article-content {
 
 
 ul.community-main-article-list {
-    display: grid;
-    grid-template-columns: auto auto;
-    top: 35px;
-    position: relative;
-    list-style: none;
+  display: grid;
+  grid-template-columns: auto auto;
+  top: 70px;
+  position: relative;
+  list-style: none;
 }
 
 li.community-main-article-list-content {
-    margin: 0 65px 0 0;
+  margin: 0 65px 0 0;
+  display: inline-block;
+}
+
+a.community-main-list-img {
+  background: #000;
+  width: 56px;
+  height: 56px;
+  position: relative;
+  display: inline-block;
+  transform: rotate(75deg);
+  border-radius: 8px;
+  box-shadow: 0 -6px 11px 1px rgba(0, 0, 0, 0.45);
+}
+
+h2.community-main-article-list-title {
+  display: inline-block;
+  position: relative;
+  top: -35px;
+  margin-left: 35px;
+}
+
+p.community-main-article-list-content {
+  display: inline-block;
+  position: relative;
+  top: -68px;
+  margin-left: 95px;
+}
+
+.more-links {
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 79px;
+  margin-bottom: 79px;
+  text-underline-position: under;
+  text-decoration: underline #2d2d2d;
+  cursor: pointer;
+}
+
+.featured-smashing-book {
+  display: inline-block;
+  position: relative;
+  background-color: #000;
+  color: #fff;
 }
 
 /** Main Section Style End **/
