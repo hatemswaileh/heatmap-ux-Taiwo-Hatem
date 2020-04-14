@@ -554,6 +554,16 @@ ul.fourth-article-content-container {
   cursor: pointer;
 }
 
+.see-all {
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 184px;
+  margin-bottom: 79px;
+  text-underline-position: under;
+  text-decoration: underline #2d2d2d;
+  cursor: pointer;
+}
+
 .shipping-article {
   text-align: center;
   background-color: #000;
@@ -850,10 +860,66 @@ p.smashing-newsletter-content {
 
 a.smashing-newsletter-content-1 {
   color: #fff;
+  text-decoration: none;
+  border-right: 2px solid #fff;
+  padding: 11px;
+  margin-right: 11px;
+}
+
+p.smashing-newsletter-content-3 {
+  position: relative;
+  top: -22px;
+  margin-bottom: -16px;
 }
 
 /** Main Section Style End **/
 
 /** Footer Section Style Start **/
 
+.browse-all {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+}
+
+h4.browse-all-title {
+  text-transform: uppercase;
+  padding: 46px 0 17px 0;
+  font-size: 19px;
+  font-family: serif;
+}
+
+a.browse-all-list-content {
+  color: #fff;
+  font-size: 27px;
+  padding: 7px;
+  text-decoration: underline #5d5d5d;
+}
+
+a.browse-all-list-content::before {
+  content: "∙ ";
+  color: #fff;
+}
+
+p.browse-all-content-1 {
+  font-style: italic;
+  position: relative;
+  top: 20px;
+}
+
+p.browse-all-content-2 {
+  position: relative;
+  top: 10px;
+}
+
+a.browse-all-content-link {
+  color: #fff;
+  text-decoration: underline #5d5d5d;
+}
+
+a.browse-all-link-2 {
+  color: #fff;
+  text-decoration: underline #5d5d5d;
+  padding: 5px;
+}
 /** Footer Section Style End **/
