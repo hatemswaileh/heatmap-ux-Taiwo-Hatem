@@ -421,6 +421,15 @@ li.fourth-article-main-content-2:hover::after {
   background-color: #000;
 }
 
+li.third-article-main-content-1,
+li.third-article-main-content-2,
+li.fourth-article-main-content-1,
+li.fourth-article-main-content-2 {
+  padding: 3px 50px 30px 50px;
+  color: #fff;
+  cursor: pointer;
+}
+
 li.second-article-main-content-1:hover,
 li.second-article-main-content-2:hover,
 li.second-article-main-content-3:hover,
@@ -554,15 +563,6 @@ a.sign-in {
   color: #fff;
   padding: 5px;
   text-decoration: underline #5d5d5d;
-}
-
-li.third-article-main-content-1,
-li.third-article-main-content-2,
-li.fourth-article-main-content-1,
-li.fourth-article-main-content-2 {
-  padding: 3px 50px 30px 50px;
-  color: #fff;
-  cursor: pointer;
 }
 
 ul.fourth-article-content-container {
