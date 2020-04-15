@@ -13,7 +13,7 @@ HTML & CSS Heatmap
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/hatemswaileh/heatmap-ux-Taiwo-Hatem/b8f9427317a527fe2a2390432c390e55aaa17a3d/index.html)
+[Live Demo Link](https://rawcdn.githack.com/hatemswaileh/heatmap-ux-Taiwo-Hatem/c7510de166e24c9a00dba08338d0f82372104359/index.html)
 
 ## Getting Started
 
