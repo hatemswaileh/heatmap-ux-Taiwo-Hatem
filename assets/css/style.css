@@ -37,7 +37,7 @@ li.logo-list {
   position: relative;
   height: 100%;
   width: 245.3px;
-  background-color: #000;
+  background-color: #1a1a1a;
   padding: 0 30px;
 }
 
@@ -67,7 +67,7 @@ a.menu-items {
 }
 
 a.menu-items:hover {
-  color: #000;
+  color: #1a1a1a;
 }
 
 li.topics-list {
@@ -120,7 +120,7 @@ h1.main-title {
   display: flex;
   position: relative;
   box-shadow: 0 7px 4px 3px rgb(0, 0, 0);
-  background-color: #000;
+  background-color: #1a1a1a;
   width: fit-content;
   padding: 0 20px;
 }
@@ -130,7 +130,7 @@ h1.main-title {
 }
 
 .main-author-image {
-  background: #000;
+  background: #1a1a1a;
   width: 75px;
   height: 75px;
   position: relative;
@@ -212,7 +212,7 @@ span.main-article-comment {
 
 li.main-article-tag::before {
   content: "# ";
-  color: #000;
+  color: #1a1a1a;
   font-weight: 900;
   font-size: 18px;
   font-family:
@@ -302,7 +302,7 @@ article.main-articles-4 {
 }
 
 h4.vertical-address {
-  color: #000;
+  color: #1a1a1a;
   display: block;
   position: relative;
   top: 75px;
@@ -424,7 +424,7 @@ li.third-article-main-content-1:hover::after,
 li.third-article-main-content-2:hover::after,
 li.fourth-article-main-content-1:hover::after,
 li.fourth-article-main-content-2:hover::after {
-  background-color: #000;
+  background-color: #1a1a1a;
 }
 
 li.third-article-main-content-1,
@@ -451,7 +451,7 @@ ul.curated-posts-main-articles:hover {
   transform: scale(1.07);
   box-shadow: 0 0 4px 7px rgb(48, 48, 48, 0.3);
   z-index: 5;
-  color: #000;
+  color: #1a1a1a;
   border: 0;
 }
 
@@ -500,7 +500,7 @@ ul.third-article-content-container {
 }
 
 li.third-article-main-content-block {
-  background-color: #000;
+  background-color: #1a1a1a;
   color: #fff;
   border-radius: 15px;
   margin-right: 20px;
@@ -509,7 +509,7 @@ li.third-article-main-content-block {
 }
 
 li.fourth-article-main-content-block {
-  background-color: #000;
+  background-color: #1a1a1a;
   color: #fff;
   border-radius: 15px;
   display: block;
@@ -606,7 +606,7 @@ ul.fourth-article-content-container {
 
 .shipping-article {
   text-align: center;
-  background-color: #000;
+  background-color: #1a1a1a;
   color: #fff;
   padding: 56px 0 0 0;
   height: 915px;
@@ -688,7 +688,7 @@ h1.shipping-title-2 {
 }
 
 a.community-main-article-img {
-  background: #000;
+  background: #1a1a1a;
   width: 200px;
   height: 200px;
   position: relative;
@@ -750,7 +750,7 @@ li.community-main-article-list-content {
 }
 
 a.community-main-list-img {
-  background: #000;
+  background: #1a1a1a;
   width: 56px;
   height: 56px;
   position: relative;
@@ -787,7 +787,7 @@ p.community-main-article-list-content {
 .featured-smashing-book {
   display: inline-block;
   position: relative;
-  background-color: #000;
+  background-color: #1a1a1a;
   color: #fff;
   width: 100%;
   margin-top: 37px;
@@ -923,13 +923,13 @@ li.curated-posts-main-1 {
 
 ul.curated-posts-main-list {
   text-transform: capitalize;
-  color: #000;
+  color: #1a1a1a;
   text-decoration: underline #5d5d5d;
   font-size: 21px;
 }
 
 .smashing-newsletter {
-  background-color: #000;
+  background-color: #1a1a1a;
   color: #fff;
   text-align: center;
 }
@@ -993,7 +993,7 @@ h4.vertical-address.curated {
 /** Footer Section Style Start **/
 
 .browse-all {
-  background-color: #000;
+  background-color: #1a1a1a;
   color: #fff;
   text-align: center;
 }
