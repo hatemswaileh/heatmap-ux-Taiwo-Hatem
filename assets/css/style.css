@@ -23,6 +23,12 @@ body.main {
   margin: 0;
 }
 
+h6.hidden {
+  visibility: hidden;
+  height: 0;
+  width: 0;
+}
+
 /** General Style End **/
 
 /** Nav Bar Style Start **/
